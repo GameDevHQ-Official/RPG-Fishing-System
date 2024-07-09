@@ -8,7 +8,7 @@ Create a text-based fishing system in C++ where players can catch fish from a pr
 
 ### Fishing Table
 
-- Define a fishing table with item IDs and corresponding fish names using a static 2D array.
+- Define a fishing table with item IDs and corresponding fish names using two separate static arrays.
 - Use `std::rand()` to randomly select a fish from the fishing table.
 
 ### Inventory Management
@@ -38,7 +38,7 @@ Create a text-based fishing system in C++ where players can catch fish from a pr
 
 ### 2. Define Fishing Table
 
-- Create a static 2D array to store fish item IDs and names.
+- Create two static arrays: one for fish item IDs and one for fish names.
 
 ### 3. Implement Fishing Function
 
@@ -48,8 +48,9 @@ Create a text-based fishing system in C++ where players can catch fish from a pr
 
 - Implement a function to add the caught fish to the player's dynamically managed inventory and display the inventory.
 
-## Example Ouput
-```
+## Example User Interaction
+
+```plaintext
 *****************************************************************
 *                     RPG Fishing System                        *
 *****************************************************************
@@ -85,7 +86,6 @@ Enter 'f' to fish, 'i' to display inventory, 'q' to quit: q
 *                      Thanks for playing!                      *
 *****************************************************************
 ```
-
 ## Submission Details
 
 ### 1. Complete the project and ensure it is bug-free.
