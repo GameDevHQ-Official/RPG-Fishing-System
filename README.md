@@ -1,4 +1,4 @@
-# RuneScape-Inspired Fishing System
+# RPG Fishing System
 
 ## Objective
 
@@ -51,7 +51,7 @@ Create a text-based fishing system in C++ where players can catch fish from a pr
 ## Example Ouput
 ```
 *****************************************************************
-*                     RPG Inspired Fishing                *
+*                     RPG Fishing System                        *
 *****************************************************************
 
 Enter 'f' to fish, 'i' to display inventory, 'q' to quit: f
