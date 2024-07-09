@@ -8,7 +8,7 @@ Create a text-based fishing system in C++ where players can catch fish from a pr
 
 ### Fishing Table
 
-- Define a fishing table with item IDs and corresponding fish names using two separate static arrays.
+- Define a fishing table with corresponding fish names using a static array.
 - Use `std::rand()` to randomly select a fish from the fishing table.
 
 ### Inventory Management
@@ -16,18 +16,18 @@ Create a text-based fishing system in C++ where players can catch fish from a pr
 - Use `std::vector` to manage the player's inventory dynamically.
 - Add the caught fish to the inventory.
 
-### Fish Items Table
+### Fish Names Table
 
-| Item ID | Fish Name    |
-|---------|--------------|
-| 317     | Shrimp       |
-| 327     | Sardine      |
-| 345     | Herring      |
-| 321     | Anchovies    |
-| 377     | Lobster      |
-| 371     | Swordfish    |
-| 359     | Tuna         |
-| 383     | Shark        |
+| Fish Name    |
+|--------------|
+| Shrimp       |
+| Sardine      |
+| Herring      |
+| Anchovies    |
+| Lobster      |
+| Swordfish    |
+| Tuna         |
+| Shark        |
 
 ## Steps
 
@@ -38,7 +38,7 @@ Create a text-based fishing system in C++ where players can catch fish from a pr
 
 ### 2. Define Fishing Table
 
-- Create two static arrays: one for fish item IDs and one for fish names.
+- Create a static array to store fish names.
 
 ### 3. Implement Fishing Function
 
